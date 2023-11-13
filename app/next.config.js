@@ -2,8 +2,8 @@
 const nextConfig = {
     output: 'export',
 
-    basePath: "/Portfolio",
-    assetPrefix: "/Portfolio",
+    basePath: process.env.NODE_ENV === "production" ? "/Portfolio" : undefined,
+    assetPrefix: process.env.NODE_ENV === "production" ? "/Portfolio" : undefined,
  
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
   // trailingSlash: true,

@@ -6,7 +6,8 @@ import styles from './index.module.scss';
 const Index = () => {
     return (
         <div className={styles['main']}>
-            <h1>Olá Mundo!</h1>
+            <h1>Sorry, there's nothing to see here yet.</h1>
+            <h2>Still working on it...</h2>
         </div>
     )
 }
