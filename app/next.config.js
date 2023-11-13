@@ -2,7 +2,7 @@
 const nextConfig = {
     output: 'export',
 
-    basePath: "/Portfolio/",
+    basePath: "/Portfolio",
     assetPrefix: "/Portfolio",
  
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
